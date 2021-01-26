@@ -1,0 +1,154 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+/* nav bar*/
+.navbar-custom{
+    background-color:rgb(255, 255, 255);
+    
+    
+}
+.navbar{
+    margin-bottom: 0 !important;
+}
+/* Modify brand and text color */ 
+.navbar-custom .navbar-brand, 
+.navbar-custom .navbar-text { 
+	color: rgb(20, 20, 20); 
+} 
+ .nav-link {
+    color: rgba(19, 17, 17, 0.5);
+}
+.navbar-toggler-icon{
+    background-color: turquoise;
+}
+
+
+
+@media screen and (min-width: 768px){
+    .nav-social {
+        transform:translateX(10vw);
+        white-space: break-spaces;
+    }
+    #Brand{
+        transform: translateY(3em);
+    }
+}
+
+#logo{
+    width:60px;
+    margin-top: 4px;
+      
+}
+#Brand{
+    background-color: yellow;
+    height: 80px;
+    overflow: visible;
+    z-index: 100;
+}
+/* header*/ 
+
+
+#WebAgency{
+   /*  width: 100%;
+    height: 40%;
+    overflow-y: hidden;
+    margin: auto; */
+    background-image: url('../images/web_agency.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+}
+/* #WebAgency > img{
+    width: 100%;
+    min-height: 100px;
+} */
+#ser{
+    z-index: 10000;
+    color: white;
+    width: 100%;
+    padding: 10%;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* card   */
+
+.intro{
+    font-size: 2em;
+    color: black;
+}
+
+.card-title, p{
+    font-size: medium;
+}
+
+
+.contTesto {
+   
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.grey{
+    background: rgb(230, 227, 227);
+   
+}
+
+.social > #Social {
+    width: 100%;
+}
+
+/* fote*/
+.custom {
+    background-color: black;
+}
+
+.imgFooter{
+    filter: contrast(0.5);
+   max-width: 100px !important;
+}
+
+.Link, span{
+    color: white;
+    font-size: 2em;
+}
+
+.Link, li {
+    list-style-type: none;
+    font-size: small;
+    padding: 2px;
+    margin: auto;
+}
+
+
+.infoFooter{
+    text-align: center;
+}
+
+.img{
+    margin:2%;
+}
+
+#Client{
+    text-align: center;
+    font-size: x-large;
+}
+
+@media(max-width:576){
+    .contatti{
+        position: relative;
+        top: -55vw;
+        background-color: black;
+        right: -63vw;
+    }
+
+}
+
+.contatti{
+    position: relative;
+    top:-3vw;
+    background-color: black;
+}
